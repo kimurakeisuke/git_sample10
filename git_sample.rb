@@ -8,3 +8,8 @@ puts <<~TEXT
 群馬県
 
 TEXT
+
+users = ["ki","ke","hi","ho"]
+users.each do |user|
+  puts user
+end
